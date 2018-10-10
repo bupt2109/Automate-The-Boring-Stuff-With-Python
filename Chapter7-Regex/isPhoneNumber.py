@@ -29,4 +29,4 @@ pattern = re.compile(r'\s\d{3}-\d{3}-\d{4}\s')
 #print pattern
 result = re.findall(pattern, number)
 for i in result:
-    print i.strip()
+    print(i.strip())
